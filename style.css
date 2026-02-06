@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
 body {
   margin: 0;
 
@@ -66,32 +72,47 @@ body {
 
 /* ---------------------------  registe page ---------------------------------*/
 .registe{
-  background-color: #1877f2;
+
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center ;
+  height: 100vh;
 
+}
+.registe h2{
+  color: black;
+  margin-top: 20px;
+  text-align: right;
+  width:25% ;
+}
+
+.title{
+  color: black;
+  text-align: right;
+  width:25% ;
 }
 
 .row{
-  background-color: #ccc;
+
   display: flex;
   gap: 10px;
   margin-bottom: 12px;
+  
 }
 
 label {
-  font-size: 14px;
+  font-size: 17px;
   margin: 10px 0 5px;
-  display: block;
+  display: flex;
+    
 }
 
 input, select {
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccd0d5;
-  border-radius: 8px;
+  padding: 12px 18px;
+  border: 2px solid #ccd0d5;
+  border-radius: 13px;
   font-size: 14px;
 }
 
@@ -105,11 +126,25 @@ button {
   background: #1877f2;
   border: none;
   color: white;
-  font-size: 16px;
-  border-radius: 8px;
-  cursor: pointer;
+  font-size: 18px;
+  border-radius: 30px;
+ 
+  margin-bottom: 20px;
 }
 
-button:hover {
-  background: #166fe5;
+.registe a {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  border-radius: 30px ;
+  border: 2px solid #ccd0d5;
+  margin-bottom: 20px;
+  text-decoration: none;
+  
 }
+
