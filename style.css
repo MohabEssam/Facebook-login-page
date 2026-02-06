@@ -148,3 +148,19 @@ button {
   
 }
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+  .login {
+    width: 100%;
+    border-right: none;
+    border-bottom: 3px solid #dde2e8;
+    padding: 20px;
+  }
+  .photo img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
