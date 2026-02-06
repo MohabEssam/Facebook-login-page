@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+
+  font-family: 'Segoe UI Historic', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+.container {
+  background-color: #ffffff;
+  display: flex;
+  height: 90vh;
+    border-bottom: 3px solid #dde2e8;
+
+}
+
+.login {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  border-right: 3px solid #dde2e8;
+  padding:0 70px;
+}
+.login h2 {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: end;
+}
+.login input {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  text-align: right;
+}
+.btn1 {
+  background: #1877f2;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 25px;
+  font-size: 18px;
+}
+.btn2 {
+  background: transparent;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 14px;
+  border-radius: 25px;
+  font-size: 18px;
+}
+.btn3 {
+  background: transparent;
+  color: #1877f2;
+  border: 1px solid #1877f2;
+  padding: 14px;
+  border-radius: 25px;
+  font-size: 18px;
+}
+
+.photo {width: 100%;}
+.photo img{width: 67%;margin-left: 90px;}
+.photo p{margin: 20px;}
+
+
+/* ---------------------------  registe page ---------------------------------*/
+.registe{
+  background-color: #1877f2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center ;
+
+}
+
+.row{
+  background-color: #ccc;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+label {
+  font-size: 14px;
+  margin: 10px 0 5px;
+  display: block;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccd0d5;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.full {
+  margin-bottom: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #1877f2;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #166fe5;
+}
